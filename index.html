@@ -88,15 +88,50 @@
       <section class="card" id="git-section">
 
         <h2>Git</h2>
+
           <ul>
 
             <li>The "git status": command checks what branch we are currently on.</li>
             <li>The "git checkout -b branch-name": command creates a new branch and switches to it.</li>
             <li>The "git add -A": command to commit all files in the working branch. </li>
-            <li>W use the "-m": flag to associate a message with our commit.</li>
+            <li>The "-m": flag to associate a message with our commit.</li>
+            <li>The <strong>git branch -b (branch name)</strong> command creates a branch, but does not check you out to it.</li>
 
           </ul>
 
+          <br>
+
+          <h2>Steps to Sync Local files with GitHub</h2>
+
+          <br>
+
+            <ol>
+              <li>We are on or in the <strong><em>main</strong></em> branch <strong>locally</strong>. We have a requirement to work on a <strong><em>feature</strong></em>.</li>
+              <li>Checkout to a new branch with the <strong>git checkout -b (branch name)</strong> command.</li>
+                <ol type="I">
+                    <li>This will create and checkout to the <strong><em>"branch name"</em></strong>.</li>
+                  </ol>
+              <li>Sync with GitHub with the <strong>git push</strong> command.</li>
+                  <ol type="I">
+                    <li>Warning this will prompt you with the following suggestion example:</li>
+                  </ol>
+                    <ol type="i">
+                      <li><strong>push --set-upstream origin "branch name"</strong>.</li>
+                      <li>Now we will have a synced connection between <strong><em>GitHub</em></strong> and our <strong><em>local</em></strong> branch.</li>
+                    </ol>
+              <li>Work on your files/directories <strong><em>locally</em></strong>.</li>
+                    <ol type="i">
+                      <li>Do the <strong><em>commit</em></strong> workflow as needed in this stage. This includes <strong><em>pushing</em></strong> those <strong>commits</strong> to GitHub.</li>
+                    </ol>
+              <li>Create a <strong>Pull Request (PR)</strong> in GitHub</li>
+              <li>Then do a <strong>Merge Pull Request</strong>.</li>
+              <li>On the <strong><em>local</em></strong> device. If we are still not in <strong><em>main</em></strong> branch, we need to <strong><em>checkout</em></strong>.</li>
+                    <ol type="I">
+                      <li>To checkout to the <strong><em>main</em></strong> branch, use the <strong>git checkout main</strong> command.</li>
+                    </ol>
+              <li>Then we need to bring all the changes living in GitHub remote/main branch to our local machine using the <strong>git pull</strong> command.</li>
+              <li>When you finish, rinse and repeat as needed</li>
+            </ol>
       </section>
 
       <section class="card" id="javascript-section">
