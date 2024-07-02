@@ -10,7 +10,7 @@ header {
     min-width: calc(100%-48);
     background-color: blue;
     color: white;
- }
+}
 
 h1,
 h2 {
@@ -38,19 +38,19 @@ ol {
 p {
     text-align: center;
     font-size: 30px;
-  }
+}
 
-  .card {
-   
+.card {
+
     width: 80%;
     margin: 40px auto;
     border: 5px solid gray;
     box-shadow: 5px 10px #888888;
     padding: 12px 15px 15px 5px;
     line-height: 205%;
-  }
+}
 
-  footer {
+footer {
     display: flex;
     max-width: calc(100%-48);
     min-width: calc(100%-48);
@@ -59,4 +59,4 @@ p {
     height: 50px;
     justify-content: center;
     align-items: center;
-  }
+}
