@@ -62,6 +62,8 @@ header {
 
 .emphasis {
     color: white;
+    font-weight: bolder;
+    font-size: 21px;
 }
 
 ol {
