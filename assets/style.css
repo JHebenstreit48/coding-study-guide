@@ -81,7 +81,7 @@ header {
     font-style: italic;
 }
 
-#or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op {
+#or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op, #function, #private, #between, #properties, #js-example {
     color: aqua;
     font-weight: bold;
 }
@@ -95,4 +95,5 @@ footer {
     color: white;
     justify-content: center;
     align-items: center;
+    font-size: 30px;
 }
