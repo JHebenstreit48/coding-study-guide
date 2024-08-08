@@ -57,6 +57,7 @@ header {
     color: rgb(31, 206, 28);
     width: 690px;
     font-size: 20px;
+    line-height: 1.9;
 }
 
 #git-ul {
@@ -81,7 +82,7 @@ header {
     font-style: italic;
 }
 
-#or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op, #function, #private, #between, #properties, #js-example {
+#or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op, #function, #private, #between, #properties, #js-example, #method {
     color: aqua;
     font-weight: bold;
 }
