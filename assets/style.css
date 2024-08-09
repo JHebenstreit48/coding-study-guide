@@ -87,6 +87,14 @@ header {
     font-weight: bold;
 }
 
+.code {
+    display: inline;
+    margin-top: 0;
+    background-color: black;
+    padding: 7px;
+    font-size: 15px;
+}
+
 footer {
     display: flex;
     max-width: calc(100%-48);
