@@ -1,13 +1,15 @@
 body {
-    background-color: darkblue;
+    background-image: linear-gradient(to bottom, rgb(9, 81, 105) 40%, rgb(20, 162, 209) 87%, rgb(54, 191, 236) 104%);
     margin: 0;
     padding: 0;
+    background-size: cover;
+    background-attachment: fixed;
 }
 header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-image:linear-gradient(to bottom, black, rgb(74, 73, 73), grey );
+    background-image:linear-gradient(to bottom, rgb(235, 134, 4) 35%, rgb(235, 142, 20) 50%, rgb(255, 187, 0));
     color: white;
     padding: 30px;
     margin: 0 auto;
@@ -31,7 +33,7 @@ header {
     box-shadow: 5px 10px #888888;
     line-height: 2rem;
     color: white;
-    background-image: linear-gradient(to bottom, rgb(37, 3, 37) 34%, rgb(104, 15, 101)124%);
+    background-image: linear-gradient(to bottom, rgb(31, 31, 31) 6%, rgb(115, 115, 115)135%, rgb(151, 150, 150));
 }
 
 #card-header {
@@ -55,7 +57,7 @@ header {
     margin-left: auto;
     justify-content: center;
     color: rgb(31, 206, 28);
-    width: 690px;
+    width: 710px;
     font-size: 20px;
     line-height: 1.9;
 }
@@ -82,7 +84,7 @@ header {
     font-style: italic;
 }
 
-#or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op, #function, #private, #between, #properties, #js-example, #method {
+#case-sense, #or, #not, #git-add-1, #git-add-2, #http-400, #http-500, #union-op, #function, #private, #between, #properties, #js-example, #method, #blueprint {
     color: aqua;
     font-weight: bold;
 }
